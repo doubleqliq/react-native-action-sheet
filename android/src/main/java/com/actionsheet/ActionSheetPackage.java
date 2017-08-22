@@ -16,7 +16,7 @@ public class ActionSheetPackage implements ReactPackage {
     return Arrays.<NativeModule>asList(new ActionSheetModule(reactContext));
   }
 
-  @Override
+  // Deprecated RN 0.47
   public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
   }
